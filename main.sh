@@ -4,11 +4,6 @@ echo "[*] Let's me do black magic for you and run sudo -rf /"
 install_scripts() {
   local FOLDER="$1"
 
-  #check if the folder exists
-  if [ ! -d "$FOLDER" ]; then
-    echo "[-] The folder $DOSSIER doesn't exist."
-    return 1
-  fi
 
 
   for SCRIPT in "$FOLDER"/*; do
@@ -23,10 +18,10 @@ install_scripts() {
 }
 
 
-i3_folder="/scripts_install_i3"
-NM_folder="/scripts_install_NetworkManager"
-tools_folder="/scripts_install_tools"
-scripts_folder="/scripts_install_scripts"
+i3_folder="/scripts_install_i3/"
+NM_folder="/scripts_install_NetworkManager/"
+tools_folder="/scripts_install_tools/"
+scripts_folder="/scripts_install_scripts/"
 
 install_scripts "$i3_folder"
 install_scripts "$NM_folder"
