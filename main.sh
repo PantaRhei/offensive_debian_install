@@ -18,10 +18,10 @@ install_scripts() {
 }
 
 
-i3_folder="/scripts_install_i3/"
-NM_folder="/scripts_install_NetworkManager/"
-tools_folder="/scripts_install_tools/"
-scripts_folder="/scripts_install_scripts/"
+i3_folder="scripts_install_i3"
+NM_folder="scripts_install_NetworkManager"
+tools_folder="scripts_install_tools"
+scripts_folder="scripts_install_scripts"
 
 install_scripts "$i3_folder"
 install_scripts "$NM_folder"
