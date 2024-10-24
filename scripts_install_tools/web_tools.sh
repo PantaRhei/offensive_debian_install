@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt install sqlmap
+sudo apt install sqlmap -y

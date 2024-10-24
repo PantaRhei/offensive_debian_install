@@ -1,2 +1,3 @@
 - Do all verification
 - permit to user choose install script
+- DO log for debug

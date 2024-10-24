@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt install sherlock
+sudo apt install sherlock -y

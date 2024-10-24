@@ -10,4 +10,4 @@ Install sudo and add user in sudo.
 - This install script can be broke your system (it's not very tested for the moments)
 
 # Install
-Just run the `main.sh`
+Just run the `install.sh` reboot and run `config.sh`

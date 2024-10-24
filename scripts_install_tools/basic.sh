@@ -1,6 +1,6 @@
 #!/bin/bash
 #Install basic tools and libraries
-sudo apt install git curl wget neofetch htop unzip zip
-sudo apt install alacritty kitty
-sudo apt install firefox-esr
-sudo apt install openvpn wireguard openresolv
+sudo apt install git curl wget neofetch htop unzip zip -y
+sudo apt install alacritty kitty -y
+sudo apt install firefox-esr -y
+sudo apt install openvpn wireguard openresolv -y
