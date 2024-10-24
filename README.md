@@ -2,7 +2,8 @@ It's just my install for ctf or street hacking
 
 # Prerequis:
 Install debian without graphical interface
-and change source.list to use the trixie repository
+and change source.list to use the trixie repository.
+Install sudo and add user in sudo.
 
 # Warning this install script is in development
 - A config file in this install script is for my personal use and *French keyboard*
