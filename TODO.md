@@ -1,0 +1,2 @@
+- Do all verification
+- permit to user choose install script
